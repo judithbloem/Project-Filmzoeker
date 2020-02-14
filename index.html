@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmzoeker</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script defer src="data.js"></script>
+    <script defer src="script.js"></script>
+    
+</head>
+<body>
+
+    <h1> WINC filmzoeker </h1>
+<nav>
+    <h5> klik op een button om films te selecteren</h5>
+    <div>
+        <ul id="radioBtns">
+            <li>
+
+                <input type="radio" id="newestFilm" name="radioBtn" value="newestFilm">
+                <label for="newestFilm">Nieuwste films</label></li>
+
+            <li>
+                <input type="radio" id="avengers" name="radioBtn" value="avengers">
+                <label for="avengers">Avengers films</label></li>
+
+            <li>    
+               <input type="radio" id="Xmen" name="radioBtn" value="Xmen">
+                <label for="Xmen">X-men films</label></li>
+
+            <li>
+                <input type="radio" id="princess" name="radioBtn" value="princess">
+                <label for="princess">Princess films</label></li>
+        
+            <li>
+                <input type="radio" id="batman" name="radioBtn" value="batman">
+             <label for="batman">Batman films</label></li>
+
+        </ul>
+    </div>
+</nav>  
+ 
+<main>
+
+<ul>
+    <div id="movieImages"></div>
+<!--
+filmposters & links naar imbd
+- Onder de `<nav>` wil je een `<main>` maken of een container `<div>` waar alle films in komen te staan. We maken een container omdat we de plaatjes waarschijnlijk willen gaan uitlijnen. Dan moeten ze natuurlijk wel in hun eigen containertje zitten.
+- Maak in de container een een `<ul>`.
+- Je gaat straks met Javascript `<li>` elementen toevoegen aan deze `<ul>`, dus het is top als je deze `<ul>` alvast een goeie `id` kan geven, waar je hem straks mee kunt selecteren.
+-->
+</ul>
+</main>
+
+</body>
+</html>
